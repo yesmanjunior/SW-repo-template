@@ -27,9 +27,9 @@
                 text-transform: uppercase; font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 1.5em; font-size: large; white-space: nowrap;
                 user-select: none; pointer-events: none;
             ">
-            Press here
+            Натисніть на екран для отримання доступу до WebAR-буклету 
             <br>
-            to enter the experience
+            «Логаріфмічна лінійка Роберта Біссакара»
         </div>
     </div>
 
@@ -153,10 +153,10 @@
 
                 // Масив назв файлів .patt. Масив заповнюється в порядку додавання маркерів
                 // якщо замість .patt було додано баркод, на його місце в масив додається порожній рядок
-                const patternNames = ["" ,"" ,""];
+                const patternNames = ["" ,"" ,"pattmarker.patt"];
                 // Масив баркодів, заповнюється одночасно з масивом патернів
                 // якщо замість баркоду був доданий .patt, на його місце масив додається -1
-                const patternBarcode = [1 ,2 ,3];
+                const patternBarcode = [1 ,2 ,-1];
                 // Масив типів контенту кожного маркера, заповнюється значеннями: зображення, модель, відео
                 const modes = ["image" ,"image" ,"image"];
                 // Масив файлів моделей, якщо немає моделі буде додано порожній рядок
